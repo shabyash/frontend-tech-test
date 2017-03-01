@@ -25,7 +25,8 @@ right side of the display containing the current prices of various currencies
 against the selected base currency.
 
 We'd like you to use a framework to achieve this. We'd prefer Vue.js, but if
-you're not familiar with that, you're welcome to use something else.
+you're not familiar with that, you're welcome to use something else as long as
+it is a modern and popular framework (i.e. react, angular2, ...).
 
 For the select boxes, please use this library: https://github.com/jshjohnson/Choices
  
