@@ -15,9 +15,12 @@ would change if you had more time.
 
 > This should take you about an hour.
 
-The task is to create a currency conversion app following roughly this design:
+The task is to create a currency conversion app that looks something like this:
 
 ![](./currency-convertor.png)
+
+You're welcome to make it look nicer if you want, but no worries if you can't—this
+is the front-end test, not the design test!
 
 You can enter a base currency and a target currency to convert a specific
 amount between currencies, and a list of currencies will be displayed on the
@@ -25,10 +28,10 @@ right side of the display containing the current prices of various currencies
 against the selected base currency.
 
 We'd like you to use a framework to achieve this. We'd prefer Vue.js, but if
-you're not familiar with that, you're welcome to use something else as long as
-it is a modern and popular framework (i.e. react, angular2, ...).
+you're not familiar with that, you're welcome to use something else such as
+React or Angular.
  
-For the currencies, use this API: http://api.fixer.io/latest?base=GBP
+For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
 Display currencies using the browser locale.
 
@@ -51,7 +54,7 @@ Non-object values like strings and numbers should just be passed through.
 
 It's an okay function, but it could be a lot cleaner, and a lot shorter: this
 function is written using only ES3, and because we don't support old versions 
-of Internet Explorer and we use Babel, we can use ES5 and ES2016.
+of Internet Explorer and we use Babel, you can use ES5 and ES2016.
 
 The task is to improve the function. This is entirely subjective and there's
 basically nothing you can do wrong - just curious!
