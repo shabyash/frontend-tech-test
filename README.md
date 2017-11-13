@@ -5,7 +5,7 @@ you in for interview.
 
 The test is divided into two parts: the first part is to create a small app,
 and the second part is to improve some existing code. The first part should
-take 45 minutes to an hour, and the second part shouldn't take long at all.
+take an hour to an hour and a half, and the second part shouldn't take long at all.
 
 If you don't complete the test, don't worry about it - just send the test back
 with as much as you've done. Also, it would be nice if you could say what you
@@ -13,7 +13,7 @@ would change if you had more time.
 
 ## Part one: a currency conversion app
 
-> This should take you about an hour.
+> This should take you an hour to an hour and a half.
 
 The task is to create a currency conversion app that looks something like this:
 
@@ -34,6 +34,12 @@ React or Angular.
 For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
 Display currencies using the browser locale.
+
+We're looking for:
+
+- Functionality: it should work, obviously!
+- Design: it looks like (or better than) the design above.
+- Code quality: code should be readable and maintainable.
 
 Good luck!
 
@@ -56,5 +62,6 @@ It's an okay function, but it could be a lot cleaner, and a lot shorter: this
 function is written using only ES3, and because we don't support old versions 
 of Internet Explorer and we use Babel, you can use ES5 and ES2016.
 
-The task is to improve the function. This is entirely subjective and there's
-basically nothing you can do wrong - just curious!
+We're looking for:
+
+- There is literally no wrong answer here. Just curious what you'll do.
