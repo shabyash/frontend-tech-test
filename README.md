@@ -1,6 +1,6 @@
 # SamKnows Front-End Technical Test
 
-Thank you for your application! Here's a short technical test before we invite
+Thank you for your application. Here's a short technical test before we invite
 you in for interview.
 
 The test is divided into two parts: the first part is to create a small app,
@@ -19,18 +19,17 @@ The task is to create a currency conversion app that looks something like this:
 
 ![](./currency-convertor.png)
 
-You're welcome to make it look nicer if you want, but no worries if you can't—this
-is the front-end test, not the design test!
+Try to stick as close to the design as possible and it is preferred that you write
+your own CSS. If you'd like to improve on the design, please go ahead but no
+worries if you can't — this is the front-end test, not the design test!
 
-You can enter a base currency and a target currency to convert a specific
+You can select a base currency and a target currency to convert a specific
 amount between currencies, and a list of currencies will be displayed on the
 right side of the display containing the current prices of various currencies
 against the selected base currency.
 
-We'd like you to use a framework to achieve this. We'd prefer Vue.js, but if
-you're not familiar with that, you're welcome to use something else such as
-React or Angular.
- 
+We'd like you to use a Vue or React to do this. Either is fine.
+
 For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
 Display currencies using the browser locale.
@@ -41,8 +40,6 @@ We're looking for:
 - Design: it looks like (or better than) the design above.
 - Code quality: code should be readable and maintainable.
 
-Good luck!
-
 ## Part two: refactoring
 
 > This shouldn't take long.
@@ -52,16 +49,19 @@ flatten an array or an object (discarding the keys).
 
 ```js
 flatten([1, 2, [3, [[4], 5]], 6]); // [1, 2, 3, 4, 5, 6]
-
 flatten({ hello: 1, world: [2, 3, { foo: [[4]]}] }); // [1, 2, 3, 4]
+flatten([2, 'test']); // [2, 'test']
 ```
 
 Non-object values like strings and numbers should just be passed through.
 
 It's an okay function, but it could be a lot cleaner, and a lot shorter: this
-function is written using only ES3, and because we don't support old versions 
+function is written using only ES3, and because we don't support old versions
 of Internet Explorer and we use Babel, you can use ES5 and ES2016.
 
 We're looking for:
 
-- There is literally no wrong answer here. Just curious what you'll do.
+- It should work. Other than that, there isn't really a wrong answer. Just curious
+to see what you'll do.
+
+Good luck!
