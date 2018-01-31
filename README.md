@@ -19,6 +19,8 @@ The task is to create a currency conversion app that looks something like this:
 
 ![](./currency-convertor.png)
 
+We'd like you to use Vue or React to do this.
+
 Try to stick as close to the design as possible and it is preferred that you write
 your own CSS. If you'd like to improve on the design, please go ahead but no
 worries if you can't — this is the front-end test, not the design test!
@@ -27,8 +29,6 @@ You can select a base currency and a target currency to convert a specific
 amount between currencies, and a list of currencies will be displayed on the
 right side of the display containing the current prices of various currencies
 against the selected base currency.
-
-We'd like you to use a Vue or React to do this. Either is fine.
 
 For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
