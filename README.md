@@ -15,9 +15,8 @@ would change if you had more time.
 
 > This should take you an hour to an hour and a half.
 
-The task is to create a currency conversion app that looks something like this:
-
-![](./currency-convertor.png)
+The task is to create a currency conversion app that looks like
+the currency-converter.png image
 
 We'd like you to use Vue or React to do this.
 
@@ -29,6 +28,9 @@ You can select a base currency and a target currency to convert a specific
 amount between currencies, and a list of currencies will be displayed on the
 right side of the display containing the current prices of various currencies
 against the selected base currency.
+
+You can swap the base and target currencies and the affected values will
+update automatically
 
 For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
