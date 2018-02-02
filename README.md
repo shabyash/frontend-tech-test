@@ -17,7 +17,7 @@ would change if you had more time.
 
 The task is to create a currency conversion app that looks something like this:
 
-![](./currency-convertor.png)
+![](./currency-converter.png)
 
 We'd like you to use Vue or React to do this.
 
