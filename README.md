@@ -15,8 +15,9 @@ would change if you had more time.
 
 > This should take you an hour to an hour and a half.
 
-The task is to create a currency conversion app that looks like
-the currency-converter.png image
+The task is to create a currency conversion app that looks something like this:
+
+![](./currency-convertor.png)
 
 We'd like you to use Vue or React to do this.
 
