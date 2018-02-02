@@ -36,7 +36,6 @@ flatten an array or an object (discarding the keys).
 ```js
 flatten([1, 2, [3, [[4], 5]], 6]); // [1, 2, 3, 4, 5, 6]
 flatten({ hello: 1, world: [2, 3, { foo: [[4]]}] }); // [1, 2, 3, 4]
-flatten([2, 'test']); // [2, 'test']
 ```
 
 Non-object values like strings and numbers should just be passed through.
