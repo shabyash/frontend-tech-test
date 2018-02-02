@@ -1,51 +1,34 @@
 # SamKnows Front-End Technical Test
 
-Thank you for your application. Here's a short technical test before we invite
-you in for interview.
+There are two parts to the test:
 
-The test is divided into two parts: the first part is to create a small app,
-and the second part is to improve some existing code. The first part should
-take an hour to an hour and a half, and the second part shouldn't take long at all.
+1. Currency Converter App (this should take no longer than an hour and a half)
+2. Refactor flatten.js (this shouldn't take long)
 
-If you don't complete the test, don't worry about it - just send the test back
-with as much as you've done. Also, it would be nice if you could say what you
-would change if you had more time.
 
-## Part one: a currency conversion app
+## Part one: A currency conversion app
 
-> This should take you an hour to an hour and a half.
+The task is to create a currency conversion app using Vue or React that looks
+like the `currency-converter.png` image.
+It's preferred that you write your own CSS/SCSS.
 
-The task is to create a currency conversion app that looks something like this:
-
-![](./currency-converter.png)
-
-We'd like you to use Vue or React to do this.
-
-Try to stick as close to the design as possible and it is preferred that you write
-your own CSS. If you'd like to improve on the design, please go ahead but no
+If you'd like to improve on the design, please go ahead but no
 worries if you can't — this is the front-end test, not the design test!
-
-You can select a base currency and a target currency to convert a specific
-amount between currencies, and a list of currencies will be displayed on the
-right side of the display containing the current prices of various currencies
-against the selected base currency.
-
-You can swap the base and target currencies and the affected values will
-update automatically
 
 For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
 
-Display currencies using the browser locale.
+##### User stores:
+- When the base currency is changed, the application should fetch new conversion rates
+- When the 'switch' button is pressed, the values of the base and target are swapped
+- When an amount is entered into the input, a converted amount is displayed
 
-We're looking for:
-
+##### We're looking for:
 - Functionality: it should work, obviously!
-- Design: it looks like (or better than) the design above.
+- Design: it looks like the design (or better).
 - Code quality: code should be readable and maintainable.
 
-## Part two: refactoring
 
-> This shouldn't take long.
+## Part two: Refactoring
 
 There's a file in this directory called `flatten.js`. It contains a function to
 flatten an array or an object (discarding the keys).
@@ -62,9 +45,14 @@ It's an okay function, but it could be a lot cleaner, and a lot shorter: this
 function is written using only ES3, and because we don't support old versions
 of Internet Explorer and we use Babel, you can use ES5 and ES2016.
 
-We're looking for:
-
+##### We're looking for:
 - It should work. Other than that, there isn't really a wrong answer. Just curious
 to see what you'll do.
 
-Good luck!
+
+## When you're finished
+
+Please ZIP up the entire project folder (except node_modules!) and email it back to us.
+You will probably have to upload the file to Google Drive or similar in order to send it via email.
+
+Thank you and good luck!
