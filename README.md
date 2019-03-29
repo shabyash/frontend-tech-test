@@ -1,9 +1,16 @@
 # SamKnows Front-End Technical Test
 
+Thank you for your application. Here's a short technical test before we invite
+you in for a face-to-face interview.
+
 There are two parts to the test:
 
 1. Currency Converter App (this should take no longer than an hour and a half)
 2. Refactor flatten.js (this shouldn't take long)
+
+If you don't complete the test, don't worry about it - just send the test back	
+with as much as you've done. Also, it would be nice if you could say what you	
+would change if you had more time.
 
 
 ## Part one: A currency conversion app
@@ -42,7 +49,7 @@ Non-object values like strings and numbers should just be passed through.
 
 It's an okay function, but it could be a lot cleaner, and a lot shorter: this
 function is written using only ES3, and because we don't support old versions
-of Internet Explorer and we use Babel, you can use ES5 and ES2016.
+of Internet Explorer and we use Babel, you can use ES5 and ES2016 if you want.
 
 ##### We're looking for:
 - It should work. Other than that, there isn't really a wrong answer. Just curious
