@@ -22,7 +22,7 @@ It's preferred that you write your own CSS/SCSS.
 If you'd like to improve on the design, please go ahead but no
 worries if you can't — this is the front-end test, not the design test!
 
-For getting the conversion rates, use this API: http://api.fixer.io/latest?base=GBP
+For getting the conversion rates, please use this API: https://exchangeratesapi.io
 
 ##### User stores:
 - When the base currency is changed, the application should fetch new conversion rates
