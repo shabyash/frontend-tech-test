@@ -12,6 +12,7 @@ If you don't complete the test, don't worry about it - just send the test back
 with as much as you've done. Also, it would be nice if you could say what you	
 would change if you had more time.
 
+Please fork this repo before starting so you can work there.
 
 ## Part one: A currency conversion app
 
@@ -30,7 +31,7 @@ For getting the conversion rates, please use this API: https://exchangeratesapi.
 - When an amount is entered into the input, a converted amount is displayed
 
 ##### We're looking for:
-- Functionality: it should work, obviously!
+- Functionality: it should work.
 - Design: it looks like the design (or better).
 - Code quality: code should be readable and maintainable.
 
@@ -58,7 +59,6 @@ to see what you'll do.
 
 ## When you're finished
 
-Please ZIP up the entire project folder (except node_modules!) and email it back to us.
-You will probably have to upload the file to Google Drive or similar in order to send it via email.
+Add `atrunelle` to your private GitHub repo so we can see your code.
 
 Thank you and good luck!
